@@ -161,7 +161,7 @@ img {
   background-color: var(--secondary-bg-color);
   font-weight: 900px;
   font-size: 44px;
-
+  max-width: 1600;
   height: 600px;
   padding-top: 200px;
   padding-bottom: 200px;
