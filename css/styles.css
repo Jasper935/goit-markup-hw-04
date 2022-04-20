@@ -257,7 +257,11 @@ img {
 }
 
 .feutures-item {
-  padding: 25px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+  height: 120px;
   background-color: #f5f4fa;
   border-radius: 4px;
   margin-bottom: 30px;
@@ -394,8 +398,11 @@ img {
   margin-left: 30px;
 }
 .clients .client-link {
-  display: block;
-  padding: 16px 32px;
+  display: flex;
+  width: 170px;
+  height: 92px;
+  align-items: center;
+  justify-content: center;
 }
 .clients .client-icon {
   fill: #afb1b8;
@@ -522,7 +529,7 @@ address a {
   background-color: var(--accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
+ 
 }
 /* Примеры работ */
 .examples {
@@ -561,8 +568,11 @@ address a {
 .examples .item:nth-last-child(-n + 3) {
   margin-bottom: 0;
 }
-.examples .item:hover,
-.examples .item:focus {
+.examples .link{
+  display: block;
+}
+.examples .link:hover,
+.examples .link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
